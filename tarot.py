@@ -38,7 +38,7 @@ if __name__ == '__main__':
     check_date = today + timedelta(days=2)
 
     if new_moon_date == check_date:
-        schedule.every().day.at("14:00",'Europe/Moscow').do(job, sign="Рыбы", symbol='♓')
+        schedule.every().day.at("14:00",'Europe/Moscow').do(job, sign="Рыбы", symbol='♓', CHAT_ID='@pisces_the')
         schedule.every().day.at("14:01",'Europe/Moscow').do(job, sign="Овен", symbol='♈')
         schedule.every().day.at("14:02",'Europe/Moscow').do(job, sign="Телец", symbol='♉')
         schedule.every().day.at("14:03",'Europe/Moscow').do(job, sign="Близнецы", symbol='♊')
@@ -48,7 +48,7 @@ if __name__ == '__main__':
         schedule.every().day.at("14:07",'Europe/Moscow').do(job, sign="Весы", symbol='♎')
         schedule.every().day.at("14:08",'Europe/Moscow').do(job, sign="Скорпион", symbol='♏')
         schedule.every().day.at("14:09",'Europe/Moscow').do(job, sign="Стрелец", symbol='♐')
-        schedule.every().day.at("14:10",'Europe/Moscow').do(job, sign="Козерог", symbol='♑')
+        schedule.every().day.at("14:10",'Europe/Moscow').do(job, sign="Козерог", symbol='♑', CHAT_ID='@capricorn_the')
         schedule.every().day.at("14:11",'Europe/Moscow').do(job, sign="Водолей", symbol='♒')
 
         fifteen_minutes = 15 * 60
