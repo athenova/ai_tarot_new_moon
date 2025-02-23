@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     if new_moon_date == check_date:
         schedule.every().day.at("14:00",'Europe/Moscow').do(job, sign="Рыбы", symbol='♓', CHAT_ID='@pisces_the')
-        schedule.every().day.at("14:01",'Europe/Moscow').do(job, sign="Овен", symbol='♈')
+        schedule.every().day.at("14:01",'Europe/Moscow').do(job, sign="Овен", symbol='♈', CHAT_ID='@aries_the')
         schedule.every().day.at("14:02",'Europe/Moscow').do(job, sign="Телец", symbol='♉')
         schedule.every().day.at("14:03",'Europe/Moscow').do(job, sign="Близнецы", symbol='♊')
         schedule.every().day.at("14:04",'Europe/Moscow').do(job, sign="Рак", symbol='♋')
