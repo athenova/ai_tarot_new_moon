@@ -1,4 +1,5 @@
 from project import Project
 
 p = Project()
-p.review('pisces')
+p.init_project()
+p.push()
