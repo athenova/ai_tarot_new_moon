@@ -1,7 +1,6 @@
 from simple_blogger import SimplestBlogger
 from string import Template
 from datetime import datetime
-from datetime import timedelta
 import ephem
 
 class Project(SimplestBlogger):
