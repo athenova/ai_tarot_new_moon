@@ -12,18 +12,18 @@ if __name__ == '__main__':
     
     if new_moon_date == check_date:
         p = Project()
-        schedule.every().day.at("20:00",'Europe/Moscow').do(p.send, type="pisces", chat_id='@pisces_the')
-        schedule.every().day.at("20:01",'Europe/Moscow').do(p.send, type="aries", chat_id='@aries_the')
-        schedule.every().day.at("20:02",'Europe/Moscow').do(p.send, type="taurus")
-        schedule.every().day.at("20:03",'Europe/Moscow').do(p.send, type="gemini", chat_id='@gemini_the')
-        schedule.every().day.at("20:04",'Europe/Moscow').do(p.send, type="cancer")
-        schedule.every().day.at("20:05",'Europe/Moscow').do(p.send, type="leo")
-        schedule.every().day.at("20:06",'Europe/Moscow').do(p.send, type="virgo")
-        schedule.every().day.at("20:07",'Europe/Moscow').do(p.send, type="libra")
-        schedule.every().day.at("20:08",'Europe/Moscow').do(p.send, type="scorpio")
-        schedule.every().day.at("20:09",'Europe/Moscow').do(p.send, type="sagittarius")
-        schedule.every().day.at("20:10",'Europe/Moscow').do(p.send, type="capricorn", chat_id='@capricorn_the')
-        schedule.every().day.at("20:11",'Europe/Moscow').do(p.send, type="aquarius", chat_id='@aquarius_the')
+        schedule.every().day.at("20:30",'Europe/Moscow').do(p.send, type="pisces", chat_id='@pisces_the')
+        schedule.every().day.at("20:31",'Europe/Moscow').do(p.send, type="aries", chat_id='@aries_the')
+        schedule.every().day.at("20:32",'Europe/Moscow').do(p.send, type="taurus")
+        schedule.every().day.at("20:33",'Europe/Moscow').do(p.send, type="gemini", chat_id='@gemini_the')
+        schedule.every().day.at("20:34",'Europe/Moscow').do(p.send, type="cancer")
+        schedule.every().day.at("20:35",'Europe/Moscow').do(p.send, type="leo")
+        schedule.every().day.at("20:36",'Europe/Moscow').do(p.send, type="virgo")
+        schedule.every().day.at("20:37",'Europe/Moscow').do(p.send, type="libra")
+        schedule.every().day.at("20:38",'Europe/Moscow').do(p.send, type="scorpio")
+        schedule.every().day.at("20:39",'Europe/Moscow').do(p.send, type="sagittarius")
+        schedule.every().day.at("20:40",'Europe/Moscow').do(p.send, type="capricorn", chat_id='@capricorn_the')
+        schedule.every().day.at("20:41",'Europe/Moscow').do(p.send, type="aquarius", chat_id='@aquarius_the')
 
         fifteen_minutes = 15 * 60
 
